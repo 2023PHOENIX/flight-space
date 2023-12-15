@@ -1,0 +1,22 @@
+
+
+^ TODO: 
+
+- create the flight
+- delete the flight
+- update the flight
+- read the  flight data.
+
+----------
+# FOLDER STRUCTING 
+    
+    - src/ 
+        index.js 
+        models/
+        controllers/
+        middleware/
+        services/
+        utils/
+        config/
+
+    - test/ 
