@@ -4,3 +4,6 @@ node_modules/
 desktop.ini
 .env
 requirement.md
+
+/src/config/config.json
+
