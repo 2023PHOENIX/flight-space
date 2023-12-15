@@ -1,10 +1,6 @@
 
 # node module should be hidden by default.
 node_modules/
-
-
 desktop.ini
-
-
-
+.env
 requirement.md
