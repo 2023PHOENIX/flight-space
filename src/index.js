@@ -2,6 +2,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 
+const { City } = require('./models/index');
+const CityRespository = require('./respository/city-repository');
 
 
 
@@ -17,8 +19,12 @@ const startUpServer = async () => {
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({extended : true}));
 
+
+    const respository = new CityRespository();
+    respository.createCity({ name: "new delhi" });
     app.listen(PORT, () => {
-        console.log(`server started at ${ PORT }`);
+        console.log(`server started at ${PORT}`);
+    
     })
 }
 
