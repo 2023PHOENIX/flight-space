@@ -3,7 +3,6 @@ const express = require("express");
 const bodyParser = require("body-parser");
 
 const { City } = require("./models/index");
-const CityRespository = require("./respository/city-repository");
 
 // & LOCAL REQUIREDMENTS
 const { PORT } = require("./config/serverConfig");
